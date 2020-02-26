@@ -1,61 +1,122 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title style="centre">Sport Fishing in Cuba</title>
-	<!--<link rel="stylesheet" href="css/estilos.css">-->
-	<link rel="shorcut icon" type="Images x-icon" href="Images/icons8-pesca-32.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Dev Course</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<!--<script src="archivo.js"></script>-->
-	<h1>Sport Fishing in Cuba</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur <i>adipisicing elit</i>. Voluptatum veritatis fuga enim, quisquam repudiandae libero debitis, <b>pariatur eius quaerat</b> ex distinctio tempore suscipit itaque dicta officia corporis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Eveniet quaerat fuga</strong> explicabo, id illo iste rem voluptate ducimus, enim optio, sequi similique vel quia porro deserunt hic tempora vitae. Vitae.<br/>
-	Distinctio, assumenda, reiciendis.</p>
-<hr/>
-	<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto laudantium explicabo animi rem ducimus. Quisquam recusandae, a fugiat perspiciatis similique. Deserunt mollitia voluptatibus expedita numquam sit dolorum aut obcaecati, quibusdam!</blockquote>
+    <div class="container">
+        <header>
+            <img src="images/logo.svg" alt="23andfour logo" class="logo">
 
-	<cite>Meera Jilka</cite>  <br/>
-<a target="_blank" href="https://www.w3schools.com/html/html_images.asp">Ir a w3schools</a>
-	<h2>Details of the options</h2>
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
 
-	<img src="images/received_311217659536377.jpeg" title="Mi querido Sobrino" align="centre" width="150px" height="150px">
-	<br/>
-<a href="images/7.jpg">I LOVE YOU</a> <a href="mailto:al2ney10@gmail.com" title="Enviar correo a Dany" >Send Email</a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="images/exit.svg" alt="exit menu">
+                    </li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<ul>
-	<li><a href="#">item #1</a></li>
-	<li>item #2</li>
-	<li>item #3
-		<ul>
-			<li>elem 1</li>
-			<li>elem 2</li>
-		</ul>
-	</li>
-	<li>item #4</li>
-</ul>
+        <section>
+            <img src="images/server.svg" alt="server graphic" class="server">
+            
+            <h1>Web Hosting for the Modern Era</h1>
+            <p class="subhead">Go serverless and pay only for what you use.</p>
 
-<ol>
-	<li>it a</li>
-	<li>it b</li>
-	<li>it c</li>
-</ol>
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
 
-<table>
-	<tr>
-		<td>Elem 1</td>
-		<td>Elem 3</td>
-		<td>Elem 3</td>
-	</tr>
-	<tr>
-		<td>Elem 4</td>
-		<td>Elem 5</td>
-		<td>Elem 6</td>
-	</tr>
-	<tr>
-		<td>Elem 7</td>
-		<td>Elem 8</td>
-		<td>Elem 9</td>
-	</tr>
-</table>
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg" alt="Calendar icon">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                </li>
+                <li>
+                    <img src="images/icon-2.svg" alt="Calendar icon">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                </li>
+                <li>
+                    <img src="images/icon-3.svg" alt="Calendar icon">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                </li>
+            </ul>
+        </div>
+    </div>
 
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="User testimonial picture">
+                        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
+                        <figcaption>- Jane Doe</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="User testimonial picture">
+                        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
+                        <figcaption>- John Doe</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Start your free trial now!</h2>
+        <a href="#" class="cta">Get Started</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="images/logo-white.svg" class="logo" alt="logo">
+                </a>
+                <p class="address">Melrose Place, 90210<br>USA</p>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+    
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
 
 </body>
 </html>
