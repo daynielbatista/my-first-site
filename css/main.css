@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -323,7 +323,7 @@ nav ul li a:hover {
     }
     .scroll {
         width: 30px;
-        animation: move s infinite alternate;
+        animation: move 1s infinite alternate;
     }
     @keyframes move {
         0% {
@@ -360,4 +360,11 @@ nav ul li a:hover {
         width: 8%;
         margin-top: -4px;
     }
-}
+    .blue-container ul li:nth-child(3) img {
+        width: 8%;
+        margin-top: -4px;
+    }
+    .cta {
+        width: 80%;
+        margin: 0 auto;
+    }
