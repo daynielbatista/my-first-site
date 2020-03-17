@@ -248,11 +248,11 @@
                                                     margin: 0;
                                                 }
                                                 .blue-container img {
-                                                    width: 10%;
+                                                    width: 20%;
                                                 }
                                                 .blue-container ul li:nth-child(3) img {
                                                     width: 11%;
-                                                    margin-top: -6em;
+                                                    margin-top: -6px;
                                                     align-items: center;
                                                 }
                                                 .blue-container ul {
