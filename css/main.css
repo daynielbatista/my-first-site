@@ -371,3 +371,13 @@
                                                     margin: 0 auto;
                                                 }
                                             }
+                                            @media only screen and (min-width: 1800px){
+                                                .blue-container img {
+                                                    width: 22%;
+                                                }
+                                                .blue-container ul li:nth-child(3) img {
+                                                    width: 12%;
+                                                    margin-top: -6px;
+                                                    align-items: center;
+                                                }
+                                            }
